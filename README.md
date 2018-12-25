@@ -1,6 +1,6 @@
 # Purpose
-I show you how to build a scenario more complex than the previous one with
-a public and a private subnet in the same VPC.
+I show you how to build a scenario more complex than the previous one
+using public and private subnet in the same VPC.
 The scenario takes up this tutorial
 [Scenario 2: VPC with Public and Private Subnets (NAT)](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_Scenario2.html?shortFooter=true),
 here are the components you will build:
