@@ -37,7 +37,7 @@ If you have not created a S3 backend, see my first tutorial
 [https://github.com/richardpct/aws-terraform-tuto01](https://github.com/richardpct/aws-terraform-tuto01)
 
 ## Creating the VPC, subnet and security group
-    $ cd ../../dev/01-network
+    $ cd environment/dev/01-network
     $ ./terraform_init.sh (execute this command once)
     $ terraform apply
 
