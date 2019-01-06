@@ -50,7 +50,7 @@ resource "aws_security_group_rule" "webserver_inbound_ssh" {
   from_port         = 22
   to_port           = 22
   protocol          = "tcp"
-  cidr_blocks       = ["0.0.0.0/0"]
+  cidr_blocks       = ["${var.cidr_allowed_ssh}"]
   security_group_id = "${aws_security_group.webserver.id}"
 }
 

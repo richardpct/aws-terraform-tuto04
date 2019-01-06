@@ -17,3 +17,7 @@ variable "subnet_public" {
 variable "subnet_private" {
   description = "private subnet"
 }
+
+variable "cidr_allowed_ssh" {
+  description = "cidr block allowed to connecti via SSH"
+}
